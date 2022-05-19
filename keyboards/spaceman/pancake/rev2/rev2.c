@@ -41,13 +41,22 @@ bool oled_task_kb(void) {
 
     switch (get_highest_layer(layer_state)) {
         case 0:
-            oled_write_P(PSTR("DEFLT\n"), false);
-            break;
-        case 2:
-            oled_write_P(PSTR("FUNCT\n"), false);
+            oled_write_P(PSTR("Deflt\n"), false);
             break;
         case 1:
-            oled_write_P(PSTR("RAISE\n"), false);
+            oled_write_P(PSTR("Vim\n"), false);
+            break;
+        case 2:
+            oled_write_P(PSTR("Num\n"), false);
+            break;
+        case 3:
+            oled_write_P(PSTR("i3wm\n"), false);
+            break;
+	case 4:
+            oled_write_P(PSTR("Npad\n"), false);
+            break;
+	case 5:
+            oled_write_P(PSTR("Mouse\n"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
