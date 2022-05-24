@@ -71,7 +71,7 @@ LSFT_T(KC_QUOT),KC_APP, KC_LALT,  KC_NO ,  KC_NO ,  KC_NO ,                     
 
   [4] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_NO ,LSA(KC_Q), KC_NO ,LALT(KC_D), KC_NO,  KC_NO ,                       KC_NO ,  KC_NO ,  KC_NO ,  KC_NO ,  KC_NO ,  KC_DEL,
+       KC_NO ,LSA(KC_Q), KC_COPY, LALT(KC_D), KC_PASTE, KC_NO,                    KC_NO ,  KC_NO ,  KC_NO ,  KC_NO ,  KC_NO ,  KC_DEL,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
  KC_NO,LALT(KC_1),LALT(KC_2),LALT(KC_3),LALT(KC_4),LALT(KC_5),            LALT(KC_6),LALT(KC_7),LALT(KC_8),LALT(KC_9),LALT(KC_0),LALT(KC_ENT),
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
